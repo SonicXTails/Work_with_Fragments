@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="Настройки"
+        android:id="@+id/action_settings"
+        />
+
+    <item android:title="О нас"
+        android:id="@+id/about">
+
+    <menu>
+        <group android:id="@+id/fragment">
+            <item android:id="@+id/firstflag"
+                android:title="Первый"/>
+            <item android:id="@+id/secondflag"
+                android:title="Второй"/>
+        </group>
+    </menu>
+</item>
+</menu>
